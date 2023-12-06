@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'yofrag-purple': '#820AA1',
+        'yofrag-pink': '#D738FF',
+        'yofrag-deepGreen': '#61A100',
+        'yofrag-lightGreen': '#9BED1C',
+        'yofrag-black': '#19171B',
+        'yofrag-gray': '#EEEDED',
+        'yofrag-white': '#F9F9F9',
       },
     },
   },
