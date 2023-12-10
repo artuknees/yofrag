@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import twitterIcon from "../../../public/twitterIcon.svg";
+import linkedinIconBlack from "../../../public/linkedinIconBlack.svg";
 
-const TwitterIcon = () => {
+const LinkedinIconBlack = () => {
     return (
         <Image
-            src={twitterIcon}
+            src={linkedinIconBlack}
             width={55}
             height={55}
             alt="Not found"
@@ -13,4 +13,4 @@ const TwitterIcon = () => {
     )
 };
 
-export default TwitterIcon;
+export default LinkedinIconBlack;

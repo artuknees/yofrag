@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import instagramIcon from "../../../public/instagramIcon.svg";
+import linkedinIconWhite from "../../../public/linkedinIconWhite.svg";
 
-const InstagramIcon = () => {
+const LinkedinIconWhite = () => {
     return (
         <Image
-            src={instagramIcon}
+            src={linkedinIconWhite}
             width={55}
             height={55}
             alt="Not found"
@@ -13,4 +13,4 @@ const InstagramIcon = () => {
     )
 };
 
-export default InstagramIcon;
+export default LinkedinIconWhite;

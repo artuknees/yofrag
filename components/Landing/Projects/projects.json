@@ -1,0 +1,26 @@
+[
+    {
+        "name": "SWEET",
+        "tags": ["E-Commerce Website","Redesign UX/UI"],
+        "bgColor": "#AD33CC",
+        "textColor": "#F9F9F9"
+    },
+    {
+        "name": "CLOUD BIOMANUFACTURING",
+        "tags": ["Corporate / Bio website","Diseño grafico"],
+        "bgColor": "#61A100",
+        "textColor": "#F9F9F9"
+    },
+    {
+        "name": "EL OTRO RESPIRO",
+        "tags": ["Diseño editorial"],
+        "bgColor": "#61A100",
+        "textColor": "#F9F9F9"
+    },
+    {
+        "name": "EL OTRO RESPIRO",
+        "tags": ["Diseño editorial"],
+        "bgColor": "#AD33CC",
+        "textColor": "#F9F9F9"
+    }
+]

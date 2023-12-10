@@ -10,9 +10,9 @@ const Layout = ({ children }:any) => {
                 <meta name="description" content="Agustina Yofre - web portfolio"/>
                 <link rel="icon" href="./favicon.ico" />
             </Head>
-            <main className='h-screen w-full flex flex-col justify-between overflow-y-auto bg-yofrag-gray'>
+            <main className='w-full flex flex-col justify-between bg-yofrag-gray'>
                 <Navbar/>
-                {children}
+                    {children}
                 <Footer/>
             </main>
         </>

@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         'yofrag-purple': '#820AA1',
-        'yofrag-pink': '#D738FF',
+        'yofrag-pink': '#AD33CC',
         'yofrag-deepGreen': '#61A100',
         'yofrag-lightGreen': '#9BED1C',
         'yofrag-black': '#19171B',

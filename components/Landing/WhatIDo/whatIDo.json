@@ -1,0 +1,17 @@
+[
+    {
+        "title": "UX/UI",
+        "tags": ["UX Research" , "E-Commerce","Portfolio Website","Biotech applications"],
+        "columns": 4
+    },
+    {
+        "title": "Diseño gráfico",
+        "tags": ["Social Media Design" , "Mail Design & Maquetado","Portfolio Website","Catálogos","Material de P.O.P" , "Presentaciones"],
+        "columns": 3
+    },
+    {
+        "title": "Fotografía",
+        "tags": ["Fotografía analógica" , "Fotografía digital"],
+        "columns": 2
+    }
+]
