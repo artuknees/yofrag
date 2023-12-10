@@ -7,7 +7,7 @@ const WhatIDo = () => {
         <section className="w-full bg-yofrag-black text-yofrag-white">
             <div className="w-[72%] h-full mx-auto flex flex-col">
                 <h1 className="w-full text-6xl font-semibold border-b border-b-yofrag-white mt-[93px] pb-[22px]">¿QUÉ HAGO?</h1>
-                {whatIDo.map((item,index) => <SectionsAndTags title={item?.title} tags={item?.tags} columns={item?.columns}/>)}
+                {whatIDo.map((item,index) => <SectionsAndTags key={index} title={item?.title} tags={item?.tags} columns={item?.columns}/>)}
             </div>
         </section>
     )

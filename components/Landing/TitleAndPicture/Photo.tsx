@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import yofre from "../../../public/yofre.png"
+import yofre from "../../../public/yofre.png";
 
 const Photo = () => {
     return (
-        <section className="w-1/3 flex-none relative">
+        <section className="w-1/3 flex-none z-10">
             <Image
                 src={yofre}
                 alt="yofre"

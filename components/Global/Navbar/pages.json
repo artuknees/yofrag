@@ -1,18 +1,18 @@
 [
     {
         "name": "Proyectos",
-        "path": "/"
+        "path": "/projects"
     },
     {
         "name": "Fotografía",
-        "path": "/"
+        "path": "/photography"
     },
     {
         "name": "Contacto",
-        "path": "/"
+        "path": "/contact"
     },
     {
         "name": "Sobre mí",
-        "path": "/"
+        "path": "/aboutMe"
     }
 ]

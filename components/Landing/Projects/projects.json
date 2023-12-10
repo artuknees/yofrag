@@ -1,25 +1,49 @@
 [
     {
-        "name": "SWEET",
+        "name": "sweet",
         "tags": ["E-Commerce Website","Redesign UX/UI"],
         "bgColor": "#AD33CC",
         "textColor": "#F9F9F9"
     },
     {
-        "name": "CLOUD BIOMANUFACTURING",
+        "name": "cloud biomanufacturing",
         "tags": ["Corporate / Bio website","Diseño grafico"],
         "bgColor": "#61A100",
         "textColor": "#F9F9F9"
     },
     {
-        "name": "EL OTRO RESPIRO",
+        "name": "el otro respiro",
         "tags": ["Diseño editorial"],
         "bgColor": "#61A100",
         "textColor": "#F9F9F9"
     },
     {
-        "name": "EL OTRO RESPIRO",
+        "name": "todo — manuel wirtz",
+        "tags": ["Diseño editorial","Diseño gráfico"],
+        "bgColor": "#AD33CC",
+        "textColor": "#F9F9F9"
+    },
+    {
+        "name": "tanto amor — manuel wirtz",
+        "tags": ["Diseño editorial","Diseño gráfico"],
+        "bgColor": "#AD33CC",
+        "textColor": "#F9F9F9"
+    },
+    {
+        "name": "hay chicle!",
+        "tags": ["Diseño gráfico"],
+        "bgColor": "#61A100",
+        "textColor": "#F9F9F9"
+    },
+    {
+        "name": "ay not dead — ss18",
         "tags": ["Diseño editorial"],
+        "bgColor": "#61A100",
+        "textColor": "#F9F9F9"
+    },
+    {
+        "name": "engendros — pedro yagüe",
+        "tags": ["Diseño gráfico"],
         "bgColor": "#AD33CC",
         "textColor": "#F9F9F9"
     }
