@@ -19,13 +19,13 @@ const Footer = () => {
                     handleClick={() => console.log('a contacto')}
                 />
                 <div className='flex flex-row items-center justify-between'>
-                    <ClickableIcon title='Instagram' tooltipPlacement='top' href='/' linkStyles='mr-[7.5px]'>
+                    <ClickableIcon title='Instagram' tooltipPlacement='top' href='https://instagram.com/agustyofr' linkStyles='mr-[7.5px]'>
                         <InstagramIconWhite/>
                     </ClickableIcon>
-                    <ClickableIcon title='Twitter' tooltipPlacement='top' href='/' linkStyles='mx-[7.5px]'>
+                    <ClickableIcon title='Twitter' tooltipPlacement='top' href='https://twitter.com/agstnyfr' linkStyles='mx-[7.5px]'>
                         <TwitterIconWhite/>
                     </ClickableIcon>
-                    <ClickableIcon title='LinkedIn' tooltipPlacement='top' href='/' linkStyles='ml-[7.5px]' >
+                    <ClickableIcon title='LinkedIn' tooltipPlacement='top' href='https://www.linkedin.com/in/agustinayofre/' linkStyles='ml-[7.5px]' >
                         <LinkedinIconWhite/>
                     </ClickableIcon>
                 </div>

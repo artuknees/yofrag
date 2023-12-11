@@ -7,13 +7,13 @@ import LinkedinIconBlack from "@/components/Common/Icons/LinkedinIconBlack";
 const Links = () => {
     return (
         <section className="w-full flex flex-row items-center justify-end">
-            <ClickableIcon title='Instagram' tooltipPlacement='top' href='/' linkStyles='mr-[7.5px]'>
+            <ClickableIcon title='Instagram' tooltipPlacement='top' href='https://instagram.com/agustyofr' linkStyles='mr-[7.5px]'>
                 <InstagramIconBlack/>
             </ClickableIcon>
-            <ClickableIcon title='Twitter' tooltipPlacement='top' href='/' linkStyles='mx-[7.5px]'>
+            <ClickableIcon title='Twitter' tooltipPlacement='top' href='https://twitter.com/agstnyfr' linkStyles='mx-[7.5px]'>
                 <TwitterIconBlack/>
             </ClickableIcon>
-            <ClickableIcon title='LinkedIn' tooltipPlacement='top' href='/' linkStyles='ml-[7.5px]' >
+            <ClickableIcon title='LinkedIn' tooltipPlacement='top' href='https://www.linkedin.com/in/agustinayofre/' linkStyles='ml-[7.5px]' >
                 <LinkedinIconBlack/>
             </ClickableIcon>
         </section>

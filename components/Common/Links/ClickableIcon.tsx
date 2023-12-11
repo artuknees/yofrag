@@ -22,7 +22,7 @@ const ClickableIcon = (props : ClickableIconProps) => {
     return (
         <ThemeProvider theme={muiConfig}>
             <Tooltip title={title} placement={tooltipPlacement} arrow>
-                <Link href={href} className={linkStyles}>
+                <Link href={href} target="_blank" className={linkStyles}>
                     {children}
                 </Link>
             </Tooltip>
