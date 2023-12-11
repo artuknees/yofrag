@@ -7,7 +7,7 @@ import starIcon from "../../../public/starIcon.svg"
 
 const TitleAndPicture = () => {
     return (
-        <section className="w-[72%] mx-auto relative">
+        <section className="lg:w-[72%] w-full px-8 lg:px-0 mx-auto relative">
             <div className="w-full flex flex-row mt-10">
                 <TitleAndSubtitle/>
                 <Photo/>
@@ -15,7 +15,7 @@ const TitleAndPicture = () => {
             <div className="w-full mt-5">
                 <Links/>
             </div>
-            <section className="absolute top-[41%] right-[17%]">
+            {/* <section className="absolute top-[41%] right-[17%]">
                 <Image
                     src={starIcon}
                     alt="star"
@@ -26,8 +26,7 @@ const TitleAndPicture = () => {
                     }}
                 
                 />
-            </section>
-
+            </section> */}
         </section>
     )
 };

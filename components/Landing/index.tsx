@@ -7,8 +7,8 @@ const Landing = () => {
     return (
         <section className="w-full flex flex-col h-full">
             <TitleAndPicture/>
-            <Projects/>
-            <WhatIDo/>
+            {/* <Projects/> */}
+            {/* <WhatIDo/> */}
         </section>
     )
 };
