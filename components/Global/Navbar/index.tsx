@@ -8,12 +8,12 @@ const Header = () => {
     const router = useRouter();
     console.log(router.pathname)
 	return (
-        <section className='w-full h-[80px] px-12 flex flex-row flex-none items-center justify-between'>
-            <Link href="/" className='text-xl font-semibold'>{`AGUSTINA YOFRE (A — Y)`}</Link>
-            <div>
+        <section className='w-full h-fit py-4 md:h-[80px] md:py-0 px-4 md:px-12 flex flex-row flex-none items-center justify-between'>
+            <Link href="/" className='text-base lg:text-xl font-semibold'>{`AGUSTINA YOFRE (A — Y)`}</Link>
+            <div className='hidden md:inline text-sm lg:text-base xl:text-lg 3xl:text-xl'>
                 {pages.map((item) => 
                     <Link
-                        className={`mx-2 first:ml-0 last:mr-0 ${router.pathname.includes(item.path) && 'font-semibold underline'} hover:underline text-xl font-light`}
+                        className={`mx-2 first:ml-0 last:mr-0 ${router.pathname.includes(item.path) && 'font-semibold underline'} hover:underline font-light`}
                         href={item.path}
                         key={item.name}
                     >
@@ -21,7 +21,7 @@ const Header = () => {
                     </Link>
                 )}
             </div>
-            <PrimaryButton text='Contacto' widths='w-[197px]' handleClick={() => console.log('a contacto')}/>
+            <PrimaryButton text='Contacto' widths='w-28 lg:w-[197px]' handleClick={() => console.log('a contacto')}/>
         </section>
 	);
 }
