@@ -12,7 +12,7 @@ const Projects = () => {
                 <h1 className="3xl:text-6xl 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg font-semibold">PROYECTOS</h1>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                {[...projects].slice(0,4).map((item,index) => <ProjectCard key={index} index={index} title={item?.name} bgColor={item?.bgColor} textColor={item?.textColor} tags={item?.tags}/>)}
+                {[...projects].slice(0,4).map((item,index) => <ProjectCard key={index} index={index} item={item}/>)}
             </div>
             <div className="flex flex-row items-center justify-center mt-10 mb-[50px] px-5 lg:px-0">
                 <SecondaryButton

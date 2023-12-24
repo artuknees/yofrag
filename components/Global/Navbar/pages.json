@@ -1,15 +1,15 @@
 [
     {
-        "name": "Proyectos",
-        "path": "/projects"
+        "name": "UX/UI",
+        "path": "/ux-ui"
+    },
+    {
+        "name": "Gráfico",
+        "path": "/graphics"
     },
     {
         "name": "Fotografía",
         "path": "/photography"
-    },
-    {
-        "name": "Contacto",
-        "path": "/contact"
     },
     {
         "name": "Sobre mí",

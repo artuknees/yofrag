@@ -1,50 +1,66 @@
 [
     {
-        "name": "sweet",
+        "name": "Sweet",
         "tags": ["E-Commerce Website","Redesign UX/UI"],
         "bgColor": "#AD33CC",
-        "textColor": "#F9F9F9"
+        "textColor": "#F9F9F9",
+        "type": "uxui",
+        "image": "/exampleProject1.png"
     },
     {
-        "name": "cloud biomanufacturing",
+        "name": "Cloud Biomanufacturing",
         "tags": ["Corporate / Bio website","Diseño grafico"],
         "bgColor": "#61A100",
-        "textColor": "#F9F9F9"
+        "textColor": "#F9F9F9",
+        "type": "uxui",
+        "image": "/exampleProject1.png"
     },
     {
-        "name": "el otro respiro",
+        "name": "El otro respiro",
         "tags": ["Diseño editorial"],
-        "bgColor": "#61A100",
-        "textColor": "#F9F9F9"
+        "bgColor": "#ffdedf",
+        "textColor": "#19171B",
+        "type": "graphics",
+        "image": "/exampleProject1.png"
     },
     {
-        "name": "todo — manuel wirtz",
+        "name": "Todo — Manuel Wirtz",
         "tags": ["Diseño editorial","Diseño gráfico"],
         "bgColor": "#AD33CC",
-        "textColor": "#F9F9F9"
+        "textColor": "#F9F9F9",
+        "type": "graphics",
+        "image": "/exampleProject1.png"
     },
     {
-        "name": "tanto amor — manuel wirtz",
+        "name": "Tanto amor — Manuel Wirtz",
         "tags": ["Diseño editorial","Diseño gráfico"],
         "bgColor": "#AD33CC",
-        "textColor": "#F9F9F9"
+        "textColor": "#F9F9F9",
+        "type": "graphics",
+        "image": "/exampleProject1.png"
     },
     {
         "name": "hay chicle!",
         "tags": ["Diseño gráfico"],
         "bgColor": "#61A100",
-        "textColor": "#F9F9F9"
+        "textColor": "#F9F9F9",
+        "type": "graphics",
+        "image": "/exampleProject1.png"
     },
     {
         "name": "ay not dead — ss18",
         "tags": ["Diseño editorial"],
         "bgColor": "#61A100",
-        "textColor": "#F9F9F9"
+        "textColor": "#F9F9F9",
+        "type": "graphics",
+        "image": "/exampleProject1.png"
     },
     {
         "name": "engendros — pedro yagüe",
         "tags": ["Diseño gráfico"],
         "bgColor": "#AD33CC",
-        "textColor": "#F9F9F9"
+        "textColor": "#F9F9F9",
+        "type": "graphics",
+        "image": "/exampleProject1.png"
     }
 ]
