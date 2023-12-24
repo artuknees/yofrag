@@ -8,15 +8,15 @@ const Projects = () => {
     const router = useRouter();
     return (
         <section className="w-[72%] mx-auto mt-9">
-            <div className="w-full flex flex-col items-start justify-start border-b border-b-yofrag-black pb-[30px]">
-                <h1 className="text-6xl font-semibold">PROYECTOS</h1>
+            <div className="w-full flex flex-col items-start justify-start border-b border-b-yofrag-black 2xl:pb-[30px] lg:pb-4 pb-2">
+                <h1 className="3xl:text-6xl 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg font-semibold">PROYECTOS</h1>
             </div>
-            <div className="grid grid-cols-2 gap-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 {[...projects].slice(0,4).map((item,index) => <ProjectCard key={index} index={index} title={item?.name} bgColor={item?.bgColor} textColor={item?.textColor} tags={item?.tags}/>)}
             </div>
-            <div className="flex flex-row items-center justify-center mt-10 mb-[50px]">
+            <div className="flex flex-row items-center justify-center mt-10 mb-[50px] px-5 lg:px-0">
                 <SecondaryButton
-                    widths="w-[583px]"
+                    widths="lg:w-[583px] w-full"
                     text="Ver más proyectos"
                     darkText={true}
                     handleClick={() => router.push("/projects")}
