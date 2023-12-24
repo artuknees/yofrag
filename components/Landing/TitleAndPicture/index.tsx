@@ -15,18 +15,17 @@ const TitleAndPicture = () => {
             <div className="w-full mt-5">
                 <Links/>
             </div>
-            {/* <section className="absolute top-[41%] right-[17%]">
+            <section className="absolute lg:top-[40%] lg:right-[16%] sm:top-[49.5%] sm:right-[21.5%] top-[24vw] right-[23vw]">
                 <Image
                     src={starIcon}
                     alt="star"
                     sizes="100vw"
                     style={{
-                        width: '100%',
+                        width: '25vw',
                         height: 'auto',
                     }}
-                
                 />
-            </section> */}
+            </section>
         </section>
     )
 };
