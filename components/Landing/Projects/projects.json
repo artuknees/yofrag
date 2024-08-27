@@ -1,35 +1,48 @@
 [
     {
         "name": "Sweet",
-        "tags": ["E-Commerce Website","Redesign UX/UI"],
+        "tags": ["E-Commerce Website","UX/UI Design"],
         "bgColor": "#AD33CC",
         "textColor": "#F9F9F9",
         "type": "uxui",
-        "image": "/exampleProject1.png"
+        "image": "/projects/sweet.png",
+        "fullBackground": false
+    },
+    {
+        "name": "El otro respiro — Tomás Amante",
+        "tags": ["Diseño editorial"],
+        "bgColor": "#000000",
+        "textColor": "#ffffff",
+        "type": "graphics",
+        "image": "/projects/elOtroRespiro.png",
+        "fullBackground": false
+    },
+    {
+        "name": "Engendros — Pedro Yagüé",
+        "tags": ["Diseño gráfico"],
+        "bgColor": "#ffffff",
+        "textColor": "#000000",
+        "type": "graphics",
+        "image": "/projects/engendros.png",
+        "fullBackground": false
+    },
+    {
+        "name": "Taller de bordado",
+        "tags": ["Fotografía digital"],
+        "bgColor": "#000000",
+        "textColor": "#ffffff",
+        "type": "graphics",
+        "image": "/projects/tallerDeBordado.png",
+        "fullBackground": true
     },
     {
         "name": "Cloud Biomanufacturing",
-        "tags": ["Corporate / Bio website","Diseño grafico"],
+        "tags": ["Corporate / Bio website","Diseño gráfico"],
         "bgColor": "#61A100",
-        "textColor": "#F9F9F9",
+        "textColor": "#ffffff",
         "type": "uxui",
-        "image": "/exampleProject1.png"
-    },
-    {
-        "name": "El otro respiro",
-        "tags": ["Diseño editorial"],
-        "bgColor": "#ffdedf",
-        "textColor": "#19171B",
-        "type": "graphics",
-        "image": "/exampleProject1.png"
-    },
-    {
-        "name": "Todo — Manuel Wirtz",
-        "tags": ["Diseño editorial","Diseño gráfico"],
-        "bgColor": "#AD33CC",
-        "textColor": "#F9F9F9",
-        "type": "graphics",
-        "image": "/exampleProject1.png"
+        "image": "/projects/sweet.png",
+        "fullBackground": false
     },
     {
         "name": "Tanto amor — Manuel Wirtz",
@@ -37,7 +50,8 @@
         "bgColor": "#AD33CC",
         "textColor": "#F9F9F9",
         "type": "graphics",
-        "image": "/exampleProject1.png"
+        "image": "/exampleProject1.png",
+        "fullBackground": false
     },
     {
         "name": "hay chicle!",
@@ -45,7 +59,8 @@
         "bgColor": "#61A100",
         "textColor": "#F9F9F9",
         "type": "graphics",
-        "image": "/exampleProject1.png"
+        "image": "/exampleProject1.png",
+        "fullBackground": false
     },
     {
         "name": "ay not dead — ss18",
@@ -53,7 +68,8 @@
         "bgColor": "#61A100",
         "textColor": "#F9F9F9",
         "type": "graphics",
-        "image": "/exampleProject1.png"
+        "image": "/exampleProject1.png",
+        "fullBackground": false
     },
     {
         "name": "engendros — pedro yagüe",
@@ -61,6 +77,7 @@
         "bgColor": "#AD33CC",
         "textColor": "#F9F9F9",
         "type": "graphics",
-        "image": "/exampleProject1.png"
+        "image": "/exampleProject1.png",
+        "fullBackground": false
     }
 ]

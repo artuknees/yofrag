@@ -3,6 +3,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ambit Extra Light */
+@font-face {
+  font-family: 'Ambit';
+  src: url('/fonts/ambit/AmbitExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Ambit Light */
+@font-face {
+  font-family: 'Ambit';
+  src: url('/fonts/ambit/AmbitLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Ambit Regular */
+@font-face {
+  font-family: 'Ambit';
+  src: url('/fonts/ambit/AmbitRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Ambit Semi Bold */
+@font-face {
+  font-family: 'Ambit';
+  src: url('/fonts/ambit/AmbitSemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Ambit Bold */
+@font-face {
+  font-family: 'Ambit';
+  src: url('/fonts/ambit/AmbitBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Ambit', sans-serif;
+}
+
 @layer utilities {
     .scrollbar::-webkit-scrollbar {
       width: 8px;

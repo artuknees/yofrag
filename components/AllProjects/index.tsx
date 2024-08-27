@@ -9,7 +9,7 @@ const AllProjects = () => {
                 <h1 className="text-6xl font-semibold">PROYECTOS</h1>
             </div>
             <div className="grid grid-cols-2 gap-0 pb-[70px]">
-                {[...projects].map((item,index) => <ProjectCard key={index} index={index} title={item?.name} bgColor={item?.bgColor} textColor={item?.textColor} tags={item?.tags}/>)}
+                {[...projects].map((item,index) => <ProjectCard key={index} index={index} item={item} fullBackground={item.fullBackground}/>)}
             </div>
         </section>
     )
