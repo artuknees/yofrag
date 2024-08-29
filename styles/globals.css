@@ -3,6 +3,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Jost Light */
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/jost/Jost-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Jost Regular */
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/jost/Jost-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Jost semibold */
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/jost/Jost-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* Ambit Extra Light */
 @font-face {
   font-family: 'Ambit';

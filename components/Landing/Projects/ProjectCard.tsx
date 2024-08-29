@@ -11,6 +11,7 @@ interface Project {
     textColor: string;
     type: string;
     image?: string;
+    uri: string
 }
 
 interface ProjectCardProps {
@@ -38,7 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                     backgroundColor: fullBackground ? 'none' : item?.bgColor,
                     backgroundImage: fullBackground ? 'url("/projects/tallerDeBordado.png")': 'none'
                 }}
-                onClick={() => router.push(`/projects/${item?.name}`)}
+                onClick={() => router.push(`/projects/${item?.uri}`)}
                 >
                 <section className="w-full flex flex-auto 2xl:px-[50px] xl:px-9 lg:px-2 md:px-[50px] px-0 md:pt-[34px] lg:pt-0 xl:pt-0 pb-4 justify-center">
                     {!fullBackground

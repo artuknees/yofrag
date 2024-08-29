@@ -6,7 +6,8 @@
         "textColor": "#F9F9F9",
         "type": "uxui",
         "image": "/projects/sweet.png",
-        "fullBackground": false
+        "fullBackground": false,
+        "uri": "sweet"
     },
     {
         "name": "El otro respiro — Tomás Amante",
@@ -15,7 +16,8 @@
         "textColor": "#ffffff",
         "type": "graphics",
         "image": "/projects/elOtroRespiro.png",
-        "fullBackground": false
+        "fullBackground": false,
+        "uri": "el-otro-respiro"
     },
     {
         "name": "Engendros — Pedro Yagüé",
@@ -24,7 +26,8 @@
         "textColor": "#000000",
         "type": "graphics",
         "image": "/projects/engendros.png",
-        "fullBackground": false
+        "fullBackground": false,
+        "uri": "engendros"
     },
     {
         "name": "Taller de bordado",
@@ -33,7 +36,8 @@
         "textColor": "#ffffff",
         "type": "graphics",
         "image": "/projects/tallerDeBordado.png",
-        "fullBackground": true
+        "fullBackground": true,
+        "uri": "taller-de-bordado"
     },
     {
         "name": "Cloud Biomanufacturing",
@@ -42,7 +46,8 @@
         "textColor": "#ffffff",
         "type": "uxui",
         "image": "/projects/sweet.png",
-        "fullBackground": false
+        "fullBackground": false,
+        "uri": "cloud-biomanufacturing"
     },
     {
         "name": "Tanto amor — Manuel Wirtz",
@@ -51,7 +56,8 @@
         "textColor": "#F9F9F9",
         "type": "graphics",
         "image": "/exampleProject1.png",
-        "fullBackground": false
+        "fullBackground": false,
+        "uri": "tanto-amor"
     },
     {
         "name": "hay chicle!",
@@ -60,7 +66,8 @@
         "textColor": "#F9F9F9",
         "type": "graphics",
         "image": "/exampleProject1.png",
-        "fullBackground": false
+        "fullBackground": false,
+        "uri": "hay-chicle"
     },
     {
         "name": "ay not dead — ss18",
@@ -69,15 +76,7 @@
         "textColor": "#F9F9F9",
         "type": "graphics",
         "image": "/exampleProject1.png",
-        "fullBackground": false
-    },
-    {
-        "name": "engendros — pedro yagüe",
-        "tags": ["Diseño gráfico"],
-        "bgColor": "#AD33CC",
-        "textColor": "#F9F9F9",
-        "type": "graphics",
-        "image": "/exampleProject1.png",
-        "fullBackground": false
+        "fullBackground": false,
+        "uri": "ay-not-dead"
     }
 ]

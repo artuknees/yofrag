@@ -17,7 +17,7 @@ const Footer = () => {
                     styles='mx-4'
                     green={false}
                     darkText={true}
-                    handleClick={() => console.log('a contacto')}
+                    handleClick={() => alert('a contacto')}
                 />
                 <div className='flex flex-row items-center justify-between'>
                     <ClickableIcon title='Instagram' tooltipPlacement='top' href='https://instagram.com/agustyofr' linkStyles='mr-[7.5px]'>

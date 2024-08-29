@@ -6,7 +6,6 @@ import { useRouter } from 'next/router';
 
 const Header = () => {
     const router = useRouter();
-    console.log(router.pathname)
 	return (
         <section className='w-full h-fit py-4 md:h-[80px] md:py-0 px-4 md:px-12 flex flex-row flex-none items-center justify-between'>
             <Link href="/" className='text-base lg:text-xl font-semibold'>{`AGUSTINA YOFRE (A — Y)`}</Link>
@@ -21,7 +20,7 @@ const Header = () => {
                     </Link>
                 )}
             </div>
-            <PrimaryButton text='Contacto' widths='w-28 lg:w-[197px]' handleClick={() => console.log('a contacto')}/>
+            <PrimaryButton text='Contacto' widths='w-28 lg:w-[197px]' handleClick={() => alert('a contacto')}/>
         </section>
 	);
 }

@@ -31,6 +31,10 @@ const config: Config = {
         'yofrag-gray': '#EEEDED',
         'yofrag-white': '#F9F9F9',
       },
+      fontFamily: {
+        'ambit': ['Ambit', 'sans-serif'], // Ya lo tienes configurado
+        'jost': ['Jost', 'sans-serif'],  // Añade esta línea
+      },
     },
   },
   plugins: [],
