@@ -10,9 +10,5 @@
     {
         "name": "Fotografía",
         "path": "/photography"
-    },
-    {
-        "name": "Sobre mí",
-        "path": "/aboutMe"
     }
 ]

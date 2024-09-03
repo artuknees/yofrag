@@ -2,7 +2,7 @@
     {
         "name": "Sweet",
         "tags": ["E-Commerce Website","UX/UI Design"],
-        "bgColor": "#AD33CC",
+        "bgColor": "#61A100",
         "textColor": "#F9F9F9",
         "type": "uxui",
         "image": "/projects/sweet.png",
@@ -38,16 +38,6 @@
         "image": "/projects/tallerDeBordado.png",
         "fullBackground": true,
         "uri": "taller-de-bordado"
-    },
-    {
-        "name": "Cloud Biomanufacturing",
-        "tags": ["Corporate / Bio website","Diseño gráfico"],
-        "bgColor": "#61A100",
-        "textColor": "#ffffff",
-        "type": "uxui",
-        "image": "/projects/sweet.png",
-        "fullBackground": false,
-        "uri": "cloud-biomanufacturing"
     },
     {
         "name": "Tanto amor — Manuel Wirtz",

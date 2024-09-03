@@ -2,8 +2,10 @@ import ProjectLayout from "@/components/Common/Layouts/ProjectLayout";
 import Image from "next/image";
 import React from "react";
 import sweet1 from '../../../public/projects/sweet/sweet-mockup1.png'
-import sweetSabanaDesktop from '../../../public/projects/sweet/desktop_sabana_sweet.png'
-import sweetSabanaMobile from '../../../public/projects/sweet/mobile-sabana_sweet.png'
+import blurBackground from '../../../public/projects/sweet/blurBackground.png'
+import desktopOverBlurBackground from '../../../public/projects/sweet/desktopOverBlurBackground.png'
+
+
 import sweetPaleta from '../../../public/projects/sweet/paleta.png'
 import cell1 from '../../../public/projects/sweet/cell1.png'
 import cell2 from '../../../public/projects/sweet/cell2.png'
@@ -13,8 +15,7 @@ import cell4 from '../../../public/projects/sweet/cell4.png'
 
 const Sweet = () => {
     return (
-        <ProjectLayout name="sweet">
-
+        <ProjectLayout>
             {/* Imagen inicial */}
             <Image
                 src={sweet1}
@@ -43,29 +44,28 @@ const Sweet = () => {
             </div>
 
             {/* Sabanas */}
-            <div className="flex flex-row items-center justify-center w-full px-[98px]">
+            <div className="flex flex-row items-center justify-center w-full relative">
                 <Image
-                    src={sweetSabanaDesktop}
-                    alt='banner'
+                    src={blurBackground}
+                    alt='blur'
                     width={0}
                     height={0}
                     sizes="100vw"
                     style={{
                         height: 'auto',
                         width: '100%',
-                        marginRight: 40
                     }}
                 />
                 <Image
-                    src={sweetSabanaMobile}
-                    alt='banner'
+                    src={desktopOverBlurBackground}
+                    alt='desktopOverBlur'
                     width={0}
                     height={0}
-                    sizes="100vw"
+                    sizes="100vh"
                     style={{
-                        height: 'auto',
-                        width: '100%',
-                        marginLeft: 40
+                        height: '91.5%',
+                        width: 'auto',
+                        position: 'absolute',
                     }}
                 />
             </div>
