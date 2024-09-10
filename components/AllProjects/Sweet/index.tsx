@@ -5,13 +5,21 @@ import sweet1 from '../../../public/projects/sweet/sweet-mockup1.png'
 import blurBackground from '../../../public/projects/sweet/blurBackground.png'
 import desktopOverBlurBackground from '../../../public/projects/sweet/desktopOverBlurBackground.png'
 
-
+// paleta
 import sweetPaleta from '../../../public/projects/sweet/paleta.png'
 import cell1 from '../../../public/projects/sweet/cell1.png'
 import cell2 from '../../../public/projects/sweet/cell2.png'
 import cell3 from '../../../public/projects/sweet/cell3.png'
 import cell4 from '../../../public/projects/sweet/cell4.png'
 
+// pink phone
+import iphone from '../../../public/projects/sweet/iPhone.png'
+import iphone2 from '../../../public/projects/sweet/iPhone2.png'
+
+// overlay images
+import desktopLong from '../../../public/projects/sweet/desktop_long.png'
+import overlayPhone from '../../../public/projects/sweet/overlay_phone.png'
+import overlayTablet from '../../../public/projects/sweet/overlay_tablet.png'
 
 const Sweet = () => {
     return (
@@ -68,6 +76,28 @@ const Sweet = () => {
                         position: 'absolute',
                     }}
                 />
+            </div>
+
+            {/* Tipografía */}
+            <div className="flex flex-row px-[290px] mt-[100px]">
+                <div className="w-full flex flex-col justify-between">
+                    <h2 className="text-6xl">Tipografía</h2>
+                    <div className="w-full h-[91px] border-b border-yofrag-black flex flex-row items-end justify-between pr-[52px] pb-[10px]">
+                        <span className="font-jost font-light text-[34px]">Familia</span>
+                        <span className="font-jost font-light text-[34px]">Jost</span>
+                    </div>
+                    <div className="w-full h-[120px] border-b border-yofrag-black pr-[52px] flex flex-row items-start justify-between">
+                        <span className="font-jost font-light text-[34px]">Variantes</span>
+                        <div className="flex flex-col items-end justify-between h-full pb-[10px]">
+                            <span className="font-jost font-light text-[34px]">Light</span>
+                            <span className="font-jost font-semibold text-[34px]">Medium</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-[330px] h-[306px] flex flex-col items-center justify-center bg-yofrag-black text-yofrag-white text-[380px]">a</div>
+            </div>
+            <div className="flex flex-row font-ambit font-light flex-wrap text-6xl px-[290px] mt-4">
+                Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Ññ Oo Pp Qq Rr Ss Tt  Uu Vv Wx Xx Yy Zz 
             </div>
 
             {/* Paleta */}
@@ -132,6 +162,77 @@ const Sweet = () => {
                     }}
                 />
 
+            </div>
+
+            {/* Pink phone */}
+            <div className="bg-yofrag-gray w-full flex flex-row items-center justify-between p-[50px]">
+                <Image
+                    src={iphone}
+                    alt='iphone'
+                    width={0}
+                    height={0}
+                    sizes="100vh"
+                    style={{
+                        height: '959px',
+                        width: 'auto',
+                    }}
+                />
+                <Image
+                    src={iphone2}
+                    alt='iphone2'
+                    width={0}
+                    height={0}
+                    sizes="100vh"
+                    style={{
+                        height: '959px',
+                        width: 'auto',
+                    }}
+                />
+            </div>
+
+            {/* Overlay images */}
+            <div className="bg-yofrag-gray w-full pt-[26px] px-[240px] pb-[240px] relative">
+                <Image
+                    src={desktopLong}
+                    alt='desktopLong'
+                    width={0}
+                    height={0}
+                    sizes="100vh"
+                    style={{
+                        height: '2147px',
+                        width: 'auto',
+                    }}
+                />
+                <Image
+                    src={overlayPhone}
+                    alt='overlayPhone'
+                    width={0}
+                    height={0}
+                    sizes="100vh"
+                    style={{
+                        height: '934px',
+                        width: 'auto',
+                        position: 'absolute',
+                        bottom: '820px',
+                        left: '106px',
+                        zIndex: 2
+                    }}
+                />
+                <Image
+                    src={overlayTablet}
+                    alt='overlayTablet'
+                    width={0}
+                    height={0}
+                    sizes="100vh"
+                    style={{
+                        height: '934px',
+                        width: 'auto',
+                        position: 'absolute',
+                        bottom: '120px',
+                        right: '0px',
+                        zIndex: 2
+                    }}
+                />
             </div>
 
         </ProjectLayout>
